@@ -13,7 +13,7 @@ module.exports = {
                 .addFields(
                     {name: "Info", value: "`server`,`me`"},
                     //{name: "Fun", value: ""},
-                    {name: "Modération", value: "`clear`,``"},
+                    //{name: "Modération", value: "`clear`,``"},
                     {name: "Pornhub", value: "`random`,`links`"},
                     {name: "Ascii", value: "`cat`,`crab`,`sans`,..."}
                 )
