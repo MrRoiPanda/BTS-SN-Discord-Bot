@@ -9,9 +9,9 @@ module.exports = {
             let _links = new Discord.MessageEmbed()
                 .setColor(0xffa500)
                 .setTitle('Pornhub Links')
-                .attachFiles(['Pornhub.png'])
+                .attachFiles(['img/Pornhub.png'])
                 .setThumbnail('attachment://Pornhub.png')
-                .attachFiles(['img/ph/pornhub_logo_straight.png'])
+                .attachFiles(['img/pornhub_logo_straight.png'])
                 .setImage('attachment://pornhub_logo_straight.png')
                 .addFields(
                     {name: 'Ｐｏｒｎｈｕｂ', value: 'https://pornhub.com/'},
