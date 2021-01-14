@@ -6,7 +6,7 @@ module.exports = {
         if(args[0] === 'random') message.channel.send('https://fr.pornhub.com/random');
 
         if(args[0] === 'links'){
-            let _links = new Discord.MessageEmbed()
+            const _links = new Discord.MessageEmbed()
                 .setColor(0xffa500)
                 .setTitle('Pornhub Links')
                 .attachFiles(['img/Pornhub.png'])
