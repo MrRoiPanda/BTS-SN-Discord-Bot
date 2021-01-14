@@ -23,7 +23,7 @@ module.exports = {
 
         if(args[0] === 'ascii'){
             const ascii = new Discord.MessageEmbed()
-            .setColor(0xffa500)
+            .setColor(0x1f1f1f)
             .setTitle("BTS SN - Page d\'aide - ASCII")
             //.attachFiles(['img/Pornhub.png'])
             //.setThumbnail('attachment://Pornhub.png')
@@ -40,6 +40,7 @@ module.exports = {
             .setTimestamp()
         message.channel.send(ascii);
         }
+        
         if(args[0] === 'pornhub'){
             const ascii = new Discord.MessageEmbed()
             .setColor(0xffa500)
