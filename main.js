@@ -32,9 +32,9 @@ client.on('message', message =>{
         case 'me':
             client.commands.get('me').execute(message);
         break;
-        case 'clear':
-            client.commands.get('clear').execute(message, args, Discord);
-        break;
+        //case 'clear':
+            //client.commands.get('clear').execute(message, args, Discord);
+        //break;
         case 'server':
             client.commands.get('server').execute(message);
         break;
