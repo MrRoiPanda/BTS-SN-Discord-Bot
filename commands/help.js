@@ -18,6 +18,18 @@ module.exports = {
                 .setTimestamp()
             message.channel.send(home);
         }
+        if(args[0] === 'info'){
+            const ascii = new Discord.MessageEmbed()
+            .setColor(0xffa500)
+            .setTitle("BTS SN - Page d\'aide - Info")
+            .setThumbnail('https://imgur.com/4Naeews')
+            .setDescription("Pour utiliser les commandes: `!\"arguments\"`")
+            .addFields(
+                {name: "Info :", value: "`random`,`links`"}
+            )
+            .setTimestamp()
+        message.channel.send(ascii);
+        }
 
         if(args[0] === 'ascii'){
             const ascii = new Discord.MessageEmbed()
