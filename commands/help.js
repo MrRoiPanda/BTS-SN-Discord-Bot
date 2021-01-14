@@ -25,6 +25,8 @@ module.exports = {
             const ascii = new Discord.MessageEmbed()
             .setColor(0xffa500)
             .setTitle("BTS SN - Page d\'aide - ASCII")
+            .attachFiles(['img/Pornhub.png'])
+            .setThumbnail('attachment://Pornhub.png')
             .setDescription("Pour utiliser les commandes: `!ascii \"arguments\"`")
             .addFields(
                 {name: "Animals :", value: "`cat`,`crab`"},
