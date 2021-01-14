@@ -9,10 +9,10 @@ module.exports = {
             const _links = new Discord.MessageEmbed()
                 .setColor(0xffa500)
                 .setTitle('Pornhub Links')
-                .attachFiles(['img/Pornhub.png'])
-                .setThumbnail('attachment://Pornhub.png')
-                .attachFiles(['img/pornhub_logo_straight.png'])
-                .setImage('attachment://pornhub_logo_straight.png')
+                //.attachFiles(['img/Pornhub.png'])
+                //.setThumbnail('attachment://Pornhub.png')
+                //.attachFiles(['img/pornhub_logo_straight.png'])
+                //.setImage('attachment://pornhub_logo_straight.png')
                 .addFields(
                     {name: 'Ｐｏｒｎｈｕｂ', value: 'https://pornhub.com/'},
                     {name: 'Ｐｏｒｎｈｕｂ 𝕊𝕖𝕝𝕖𝕔𝕥', value: 'https://www.pornhubselect.com/'},
