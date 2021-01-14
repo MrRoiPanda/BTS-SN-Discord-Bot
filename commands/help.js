@@ -6,10 +6,8 @@ module.exports = {
             const home = new Discord.MessageEmbed()
                 .setColor(0xffa500)
                 .setTitle("BTS SN - Page d\'aide")
-                //.attachFiles(['Pornhub.png'])
-                //.setThumbnail('attachment://Pornhub.png')
-                //.attachFiles(['img/ph/pornhub_logo_straight.png'])
-                //.setImage('attachment://pornhub_logo_straight.png')
+                .setThumbnail('https://imgur.com/4Naeews')
+                .setImage('https://imgur.com/xAFsXoY')
                 .addFields(
                     {name: "Info", value: "`server`,`me`"},
                     //{name: "Fun", value: ""},
@@ -25,8 +23,7 @@ module.exports = {
             const ascii = new Discord.MessageEmbed()
             .setColor(0x1f1f1f)
             .setTitle("BTS SN - Page d\'aide - ASCII")
-            //.attachFiles(['img/Pornhub.png'])
-            //.setThumbnail('attachment://Pornhub.png')
+            .setThumbnail('https://imgur.com/4Naeews')
             .setDescription("Pour utiliser les commandes: `!ascii \"arguments\"`")
             .addFields(
                 {name: "Animals :", value: "`cat`,`crab`"},
@@ -45,8 +42,7 @@ module.exports = {
             const ascii = new Discord.MessageEmbed()
             .setColor(0xffa500)
             .setTitle("BTS SN - Page d\'aide - PORNHUB")
-            //.attachFiles(['img/Pornhub.png'])
-            //.setThumbnail('attachment://Pornhub.png')
+            .setThumbnail('https://imgur.com/4Naeews')
             .setDescription("Pour utiliser les commandes: `!pornhub \"arguments\"`")
             .addFields(
                 {name: "Lien PH :", value: "`random`,`links`"}
