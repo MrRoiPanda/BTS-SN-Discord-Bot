@@ -40,6 +40,19 @@ module.exports = {
             .setTimestamp()
         message.channel.send(ascii);
         }
+        if(args[0] === 'pornhub'){
+            const ascii = new Discord.MessageEmbed()
+            .setColor(0xffa500)
+            .setTitle("BTS SN - Page d\'aide - PORNHUB")
+            //.attachFiles(['img/Pornhub.png'])
+            //.setThumbnail('attachment://Pornhub.png')
+            .setDescription("Pour utiliser les commandes: `!pornhub \"arguments\"`")
+            .addFields(
+                {name: "Lien PH :", value: "`random`,`links`"}
+            )
+            .setTimestamp()
+        message.channel.send(ascii);
+        }
     }
     
 };
