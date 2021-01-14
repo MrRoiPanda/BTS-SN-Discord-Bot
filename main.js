@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
+const { prefix } = require('./config.json');
 const client = new Discord.Client();
 /// For command clear
 const fs = require('fs');
@@ -49,15 +49,4 @@ client.on('message', message =>{
     }    
 });
 // end
-client.login(token);
-
-/*
-/// module template
-module.exports = {
-    name: 'ping',
-    description: "ping pong command!",
-    execute(message){
-        message.channel.send('pong !');
-    }
-};
-*/
+client.login(process.env.TOKEN);
