@@ -6,8 +6,8 @@ module.exports = {
             const home = new Discord.MessageEmbed()
                 .setColor(0xffa500)
                 .setTitle("BTS SN - Page d\'aide")
-                .setThumbnail('https://imgur.com/4Naeews')
-                .setImage('https://imgur.com/xAFsXoY')
+                .setThumbnail('https://i.imgur.com/4Naeews.png')
+                .setImage('https://i.imgur.com/xAFsXoY.png')
                 .addFields(
                     {name: "Info", value: "`server`,`me`"},
                     //{name: "Fun", value: ""},
@@ -22,7 +22,7 @@ module.exports = {
             const ascii = new Discord.MessageEmbed()
             .setColor(0xffa500)
             .setTitle("BTS SN - Page d\'aide - Info")
-            .setThumbnail('https://imgur.com/4Naeews')
+            .setThumbnail('https://i.imgur.com/4Naeews.png')
             .setDescription("Pour utiliser les commandes: `!\"arguments\"`")
             .addFields(
                 {name: "Info :", value: "`random`,`links`"}
@@ -35,7 +35,7 @@ module.exports = {
             const ascii = new Discord.MessageEmbed()
             .setColor(0x1f1f1f)
             .setTitle("BTS SN - Page d\'aide - ASCII")
-            .setThumbnail('https://imgur.com/4Naeews')
+            .setThumbnail('https://i.imgur.com/4Naeews.png')
             .setDescription("Pour utiliser les commandes: `!ascii \"arguments\"`")
             .addFields(
                 {name: "Animals :", value: "`cat`,`crab`"},
@@ -54,7 +54,7 @@ module.exports = {
             const ascii = new Discord.MessageEmbed()
             .setColor(0xffa500)
             .setTitle("BTS SN - Page d\'aide - PORNHUB")
-            .setThumbnail('https://imgur.com/4Naeews')
+            .setThumbnail('https://i.imgur.com/4Naeews.png')
             .setDescription("Pour utiliser les commandes: `!pornhub \"arguments\"`")
             .addFields(
                 {name: "Lien PH :", value: "`random`,`links`"}
